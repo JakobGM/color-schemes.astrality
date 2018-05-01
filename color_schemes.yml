@@ -14,7 +14,7 @@
 #       white, red, green, yellow, blue, black.
 
 # Morhetz' gruvbox color schemes: https://github.com/morhetz/gruvbox
-context/gruvbox_dark:
+gruvbox_dark:
 
     background:
         1: '282828'
@@ -65,7 +65,7 @@ context/gruvbox_dark:
         orange:  'd65d0e'
         white:   'ebdbb2'
 
-context/gruvbox_light:
+gruvbox_light:
 
     background:
         1: 'fbf1c7'
@@ -118,7 +118,7 @@ context/gruvbox_light:
 
 # The Solarized dark/light color schemes made by Ethan Schoonover
 # Source: http://ethanschoonover.com/solarized
-context/solarized_dark:
+solarized_dark:
     background:
         1: '002b36'
         2: '073642'
@@ -169,7 +169,7 @@ context/solarized_dark:
         violet:  '6c71c4'
         white: '000000'
 
-context/solarized_light:
+solarized_light:
     background:
         1: 'fdf6e3'
         2: 'eee8d5'
