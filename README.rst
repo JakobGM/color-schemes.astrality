@@ -21,7 +21,7 @@ Install the module by adding the following to ``astrality.yml``:
 
 .. code-block:: yaml
 
-    config/modules:
+    modules:
         enabled_modules:
             - name: github::jakobgm/color-schemes.astrality
 
@@ -33,10 +33,11 @@ You can configure which color scheme that is imported into Astrality's context, 
 
 .. code-block:: yaml
 
-    context/color_schemes_config:
+    color_schemes_config:
         enabled: gruvbox_dark
         context_section: colors
 
+You can override these values in ``~/.config/astrality/context.yml``.
 
 How to use
 ==========
